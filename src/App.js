@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ImageGrid from "./Components/ImageGrid";
+import NavBar from "./Components/NavBar";
+import {BrowserRouter , Routes, Route } from "react-router-dom";
+import Login from "./Components/Forms/Login";
+import Register from "./Components/Forms/Register";
+import DynForm from "./Components/Forms/DynForm";
+import Forgot from "./Components/Forms/Forgot";
+import Address from "./Components/Forms/Address";
+import Landing from "./Components/Landing";
+import "animate.css";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return ( <div>
+    <NavBar/>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Landing/>}/>
+        <Route path="/photos" element={<ImageGrid />}/>
+        <Route path="form" element={<DynForm/>}>
+                 <Route path="login" element={<Login/>} />
+                 <Route path="register" element={<Register/>} />
+                 <Route path="forgot" element={<Forgot/>} />
+                 <Route path="address" element={<Address/>} />
+        </Route>
+      </Routes>
+   </BrowserRouter>
+   </div>
   );
 }
 

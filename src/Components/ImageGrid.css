@@ -1,0 +1,151 @@
+.innernav {
+  position : fixed;
+  top : 6%;
+  left : 0%;
+  bottom : 80%;
+  text-align: center;
+  z-index:1;
+  background-color:aliceblue;
+
+
+}
+.talign {
+  position : absolute;
+  top : 25%;
+  left : 40%;
+
+}
+.containera {
+
+  position : fixed;
+  top : 20%;
+  left : 17%;
+  right : 10%;
+  display : grid;
+  grid-template-columns: 300px 300px 300px;
+  gap : 10px;
+}
+@media screen and (min-width: 400px) and (max-width:768px) {
+  .containera{
+  position : absolute;
+  top : 15%;
+  left : 6%;
+  right : 6%;
+  display : grid;
+  grid-template-columns: 200px 200px ;
+  gap : 10px;
+
+}
+.innernav {
+  position : fixed;
+  top : 4%;
+  left : 0%;
+  bottom : 85%;
+  text-align: center;
+  z-index:1;
+  background-color:aliceblue;
+
+
+}
+.talign {
+  position : absolute;
+  top : 30%;
+  left : 20%;
+
+}}
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .containera{
+  position : absolute;
+  top : 20%;
+  left : 5%;
+  right : 5%;
+  display : grid;
+  grid-template-columns: 300px ;
+  gap : 10px;
+
+}
+.innernav {
+  position : fixed;
+  top : 6%;
+  left : 0%;
+  bottom : 85%;
+  text-align: center;
+  z-index:1;
+  background-color:aliceblue;
+
+
+}
+.talign {
+  position : absolute;
+  top : 30%;
+  left : 10%;
+
+}}/*
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .containera{
+  position : absolute;
+  top : 15%;
+  left : 5%;
+  right : 5%;
+  display : grid;
+  grid-template-columns: 350px ;
+  gap : 10px;
+
+}}*/
+@media screen and (min-width:768px ) and (max-width:1000px){
+  .containera{
+  position : absolute;
+  top : 10%;
+  left : 5%;
+  right : 0%;
+  display : grid;
+  grid-template-columns: 250px 250px 250px;
+  gap : 10px;
+
+}
+
+.innernav {
+  position : fixed;
+  top : 5%;
+  left : 0%;
+  bottom : 90%;
+  text-align: center;
+  z-index:1;
+  background-color:aliceblue;
+
+
+}
+.talign {
+  position : absolute;
+  
+
+}}
+
+@media screen and (min-width:1000px ) and (max-width:1500px){
+  .containera{
+  position : absolute;
+  top : 20%;
+  left : 20%;
+  right : 0%;
+  display : grid;
+  grid-template-columns: 250px 250px 250px;
+  gap : 10px;
+
+}
+
+.innernav {
+  position : fixed;
+  top : 5%;
+  left : 0%;
+  bottom : 85%;
+  text-align: center;
+  z-index:1;
+  background-color:aliceblue;
+
+
+}
+.talign {
+  position : absolute;
+  
+
+}}

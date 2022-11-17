@@ -1,0 +1,77 @@
+
+
+
+.forms {
+    position : absolute;
+    top : 0%;
+    left : 3px;
+    bottom :4px;
+    right : 3px;
+   
+    border-radius : 10px;
+    padding : 40px;
+    
+    box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
+   
+    /*background-image: linear-gradient(to right top , #1d85a4, #099723);*/
+
+}
+@media screen and (min-width: 0px) and (max-width:400px) {
+    .forms {
+        position : absolute;
+        top : 0%;
+        left : 0%;
+        bottom :4px;
+        right : 3px;
+       
+        border-radius : 10px;
+        padding : 40px;
+        
+        box-shadow: 4px 3px 8px 1px #969696;
+          -webkit-box-shadow: 4px 3px 8px 1px #969696;
+       
+        /*background-image: linear-gradient(to right top , #1d85a4, #099723);*/
+    
+    }
+    
+}
+
+@media screen and (min-width: 400px) and (max-width:768px) {
+    .forms {
+        position : absolute;
+        top : 0%;
+        left : 3px;
+        bottom :4px;
+        right : 3px;
+       
+        border-radius : 10px;
+        padding : 40px;
+        
+        box-shadow: 4px 3px 8px 1px #969696;
+          -webkit-box-shadow: 4px 3px 8px 1px #969696;
+       
+        /*background-image: linear-gradient(to right top , #1d85a4, #099723);*/
+    
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width:1500px) {
+    .forms {
+        position : absolute;
+        top : 0%;
+        left : 50%;
+        bottom :4px;
+        right : 3px;
+       
+        border-radius : 10px;
+        padding : 40px;
+        
+        box-shadow: 4px 3px 8px 1px #969696;
+          -webkit-box-shadow: 4px 3px 8px 1px #969696;
+       
+        /*background-image: linear-gradient(to right top , #1d85a4, #099723);*/
+    
+    }
+    
+}
