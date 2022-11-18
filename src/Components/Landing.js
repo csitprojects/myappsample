@@ -38,7 +38,7 @@ function Landing(){
     return <div className="container-fluid lll">
            <img src="https://via.placeholder.com/500" className="img" alt=""/>
 
-                <button className="btn btn-primary" onClick={()=>navigate("/form/login")}>View Girls </button>
+                <button className="btn btn-primary" onClick={()=>navigate("/form/login")}>View food</button>
             </div>
    
 }      
